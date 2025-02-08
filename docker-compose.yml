@@ -1,0 +1,78 @@
+networks:
+  app_net:
+    external: true
+
+services:
+  zookeeper:
+    image: wurstmeister/zookeeper:latest
+    container_name: zookeeper
+    ports:
+      - "2181:2181"
+    networks:
+      - app_net
+
+  kafka:
+    image: bitnami/kafka:3.3.2
+    container_name: kafka
+    ports:
+      - "9092:9092"
+      - "9094:9094"
+    environment:
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_HOST_NAME: kafka
+      KAFKA_LISTENERS: INTERNAL://kafka:9092,OUTSIDE://0.0.0.0:9094
+      KAFKA_ADVERTISED_LISTENERS: INTERNAL://kafka:9092,OUTSIDE://kafka:9094
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INTERNAL:PLAINTEXT,OUTSIDE:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: INTERNAL
+    networks:
+      - app_net
+
+  postgres:
+    image: postgres:latest
+    container_name: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: streaming
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./var/lib/postgresql:/var/lib/postgresql/data
+    networks:
+      - app_net
+  quotes_poller:
+    build:
+      context: ./Queue/src/
+      dockerfile: ./Dockerfile
+    ports:
+      - "5002:5000"
+    depends_on:
+      - kafka
+    networks:
+      - app_net
+    environment:
+      KAFKA_SERVER: kafka:9092
+  quotes_kafka_saver:
+    build:
+      context: ./BlockchainApp/src/
+      dockerfile: ./Dockerfile
+    networks:
+      - app_net
+    depends_on:
+      - kafka
+      - postgres
+    environment:
+      APP_MODE: background
+  quotes_rest:
+    build:
+      context: ./BlockchainApp/src/
+      dockerfile: ./Dockerfile
+    ports:
+      - "80:80"
+      - "5001:5049"
+    networks:
+      - app_net
+    depends_on:
+      - postgres
+    environment:
+        APP_MODE: api
