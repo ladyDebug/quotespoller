@@ -1,0 +1,32 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0e428cdd_002Dabae_002D4d29_002Db3c9_002D1761413d0f4b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ExecuteAsync_ShouldRunFetcherAndPublishData #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::DB0721A3-5232-4E84-AC71-088941E66147::net8.0::DataFetcher.Tests.FetcherWorkerTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=52445164_002Dcc21_002D4777_002Dbcd8_002D852ee126ab1b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ExecuteAsync_ShouldRunFetcherAndPublishData" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::DB0721A3-5232-4E84-AC71-088941E66147::net8.0::DataFetcher.Tests.FetcherWorkerTests.ExecuteAsync_ShouldRunFetcherAndPublishData&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9bf6875d_002Dd1b2_002D4813_002Db34e_002D6bae58a13e00/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ExecuteAsync_RespectsRateLimiting" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::DB0721A3-5232-4E84-AC71-088941E66147::net8.0::FetcherWorkerTests.ExecuteAsync_RespectsRateLimiting&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b0e2bc6b_002De4d0_002D4286_002Dba77_002Da2ad29097fe4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="FetcherWorkerTests #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::DB0721A3-5232-4E84-AC71-088941E66147::net8.0::FetcherWorkerTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c58ad215_002D1c61_002D4dcb_002D9965_002D7bbeeee3365c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="FetcherWorkerTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::DB0721A3-5232-4E84-AC71-088941E66147::net8.0::FetcherWorkerTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d230a5cd_002D5e87_002D400c_002Db697_002Da212b8283edd/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="FetcherWorkerTests #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::DB0721A3-5232-4E84-AC71-088941E66147::net8.0::DataFetcher.Tests.FetcherWorkerTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::DB0721A3-5232-4E84-AC71-088941E66147::net8.0::DataFetcher.Tests.BlockchainFetcherTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

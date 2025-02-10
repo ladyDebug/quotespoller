@@ -1,0 +1,23 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=75da4d4b_002D3e4d_002D4b29_002Da220_002D0e9670912e98/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ConsumeMessagesAsync_ShouldProcessMessageAndSaveToRepository #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::AB579B8D-55D3-48A7-BB4B-85980D156E14::net8.0::BlockchainApp.Tests.KafkaConsumerServiceTests.ConsumeMessagesAsync_ShouldProcessMessageAndSaveToRepository&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7b7ce7dc_002Dc76e_002D46c4_002D9725_002Dc0c588a29ee6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="BlockchainRepositoryTests #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::AB579B8D-55D3-48A7-BB4B-85980D156E14::net8.0::BlockchainApp.Tests.BlockchainRepositoryTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::AB579B8D-55D3-48A7-BB4B-85980D156E14::net8.0::BlockchainApp.Tests.KafkaConsumerServiceTests.ConsumeMessagesAsync_ShouldSaveDataToDatabase&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::AB579B8D-55D3-48A7-BB4B-85980D156E14::net8.0::BlockchainApp.Tests.KafkaConsumerServiceTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b6ca7d74_002Db895_002D4d1f_002Da199_002De38971348c1a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ConsumeMessagesAsync_ShouldProcessMessageAndSaveToRepository" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::AB579B8D-55D3-48A7-BB4B-85980D156E14::net8.0::BlockchainApp.Tests.KafkaConsumerServiceTests.ConsumeMessagesAsync_ShouldProcessMessageAndSaveToRepository&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::AB579B8D-55D3-48A7-BB4B-85980D156E14::net8.0::BlockchainDataControllerTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::AB579B8D-55D3-48A7-BB4B-85980D156E14::net8.0::BlockchainApp.Tests.BlockchainDataControllerTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -1,0 +1,20 @@
+{
+  "profiles": {
+    "BlockchainApp": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "status",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "APP_MODE": "api"
+      },
+      "applicationUrl": "http://localhost:5000"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/status"
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json"
+}
